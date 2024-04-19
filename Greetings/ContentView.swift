@@ -9,26 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            LinearGradient(colors: [.cyan,.blue,.white], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
-            VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundStyle(.tint)
-                Text("Greeting!")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                    .padding()
-                    .foregroundColor(Color.purple)
-                    .background(Color.orange)
-                    .cornerRadius(20)
-                    .shadow(color: .orange, radius:5 ,x:5,y:5)
-                    .padding()
-                
-            }
-            .padding()
+        VStack(alignment: .leading) {
+            TextView(text: "Hey", color: .green)
+            TextView(text: "Welcome to The Club", color: .gray)
+            TextView(text: "Are You Ready", color: .yellow)
+            TextView(text: "Start Exploring", color: .red)
+            TextView(text: "Boom", color: .purple)
+            
+            
         }
+        .padding()
     }
 }
 

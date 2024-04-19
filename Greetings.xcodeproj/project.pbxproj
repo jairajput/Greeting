@@ -11,6 +11,7 @@
 		D80CE8022BD2DB21006E7875 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8012BD2DB21006E7875 /* ContentView.swift */; };
 		D80CE8042BD2DB23006E7875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80CE8032BD2DB23006E7875 /* Assets.xcassets */; };
 		D80CE8082BD2DB23006E7875 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80CE8072BD2DB23006E7875 /* Preview Assets.xcassets */; };
+		D80CE80F2BD2E278006E7875 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE80E2BD2E278006E7875 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		D80CE8032BD2DB23006E7875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80CE8052BD2DB23006E7875 /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		D80CE8072BD2DB23006E7875 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D80CE80E2BD2E278006E7875 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D80CE8032BD2DB23006E7875 /* Assets.xcassets */,
 				D80CE8052BD2DB23006E7875 /* Greetings.entitlements */,
 				D80CE8062BD2DB23006E7875 /* Preview Content */,
+				D80CE80E2BD2E278006E7875 /* TextView.swift */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80CE80F2BD2E278006E7875 /* TextView.swift in Sources */,
 				D80CE8022BD2DB21006E7875 /* ContentView.swift in Sources */,
 				D80CE8002BD2DB21006E7875 /* GreetingsApp.swift in Sources */,
 			);
