@@ -13,6 +13,8 @@
 		D80CE8082BD2DB23006E7875 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80CE8072BD2DB23006E7875 /* Preview Assets.xcassets */; };
 		D80CE80F2BD2E278006E7875 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE80E2BD2E278006E7875 /* TextView.swift */; };
 		D80CE8112BD2F3C8006E7875 /* DataItemmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8102BD2F3C8006E7875 /* DataItemmodel.swift */; };
+		D80CE8352BD38E26006E7875 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8342BD38E26006E7875 /* TitleView.swift */; };
+		D80CE8372BD38EDD006E7875 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8362BD38EDD006E7875 /* MessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D80CE8072BD2DB23006E7875 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D80CE80E2BD2E278006E7875 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		D80CE8102BD2F3C8006E7875 /* DataItemmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemmodel.swift; sourceTree = "<group>"; };
+		D80CE8342BD38E26006E7875 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		D80CE8362BD38EDD006E7875 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D80CE8062BD2DB23006E7875 /* Preview Content */,
 				D80CE80E2BD2E278006E7875 /* TextView.swift */,
 				D80CE8102BD2F3C8006E7875 /* DataItemmodel.swift */,
+				D80CE8342BD38E26006E7875 /* TitleView.swift */,
+				D80CE8362BD38EDD006E7875 /* MessagesView.swift */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			files = (
 				D80CE8112BD2F3C8006E7875 /* DataItemmodel.swift in Sources */,
 				D80CE80F2BD2E278006E7875 /* TextView.swift in Sources */,
+				D80CE8372BD38EDD006E7875 /* MessagesView.swift in Sources */,
 				D80CE8022BD2DB21006E7875 /* ContentView.swift in Sources */,
 				D80CE8002BD2DB21006E7875 /* GreetingsApp.swift in Sources */,
+				D80CE8352BD38E26006E7875 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
