@@ -20,8 +20,8 @@ struct TitleView: View {
         AngularGradient.init(gradient: Gradient(colors: [Color.blue,Color.green,Color.red,Color.pink,Color.purple]), center: .center,angle: .zero)
     }
     
-    @State private var subtitle =  "Explore iOS Programming"
-    let subtitles = [
+    @State private var subtitle:LocalizedStringKey =  "Explore iOS Programming"
+    let subtitles:[LocalizedStringKey] = [
         "In the world of iOS development, every pixel counts.",
 
         "Swift is not just a programming language; it's a way of life for iOS developers." ,

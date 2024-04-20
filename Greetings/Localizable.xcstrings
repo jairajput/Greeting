@@ -1,0 +1,402 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Are You Ready" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل أنت جاهز"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estas listo"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "האם אתה מוכן"
+          }
+        }
+      }
+    },
+    "Boom" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فقاعة"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auge"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בּוּם"
+          }
+        }
+      }
+    },
+    "Designing for iOS is like painting on a canvas that's constantly changing size." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إن التصميم لنظام iOS يشبه الرسم على لوحة قماشية تتغير أحجامها باستمرار."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseñar para iOS es como pintar sobre un lienzo que cambia de tamaño constantemente."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "עיצוב עבור iOS הוא כמו ציור על קנבס שמשתנה כל הזמן בגודל."
+          }
+        }
+      }
+    },
+    "Explore iOS Programming" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتشف برمجة iOS"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explora la programación de iOS"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חקור תכנות iOS"
+          }
+        }
+      }
+    },
+    "Greetings" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحيات"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saludos"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ברכות"
+          }
+        }
+      }
+    },
+    "Hey" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يا"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ey"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "היי"
+          }
+        }
+      }
+    },
+    "Hey there" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبًا يا من هناك"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hola"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "שלום"
+          }
+        }
+      }
+    },
+    "In the iOS ecosystem, user experience reigns supreme." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في نظام iOS البيئي، تسود تجربة المستخدم."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En el ecosistema iOS, la experiencia del usuario reina."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "במערכת האקולוגית של iOS, חווית המשתמש שולטת."
+          }
+        }
+      }
+    },
+    "In the world of iOS development, every pixel counts." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في عالم تطوير iOS، كل بكسل له أهمية."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En el mundo del desarrollo de iOS, cada píxel cuenta."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "בעולם הפיתוח של iOS, כל פיקסל נחשב."
+          }
+        }
+      }
+    },
+    "iOS development is a journey where every bug you squash brings you one step closer to app perfection." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إن تطوير iOS عبارة عن رحلة حيث كل خطأ تقوم بسحقه يجعلك تقترب خطوة واحدة من الكمال في التطبيق."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El desarrollo de iOS es un viaje en el que cada error que eliminas te acerca un paso más a la perfección de la aplicación."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פיתוח iOS הוא מסע שבו כל באג שאתה מועך מביא אותך צעד אחד קרוב יותר לשלמות האפליקציה."
+          }
+        }
+      }
+    },
+    "iOS development is like solving a puzzle where the pieces keep changing shape." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إن تطوير iOS يشبه حل لغز حيث تستمر القطع في تغيير شكلها."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El desarrollo de iOS es como resolver un rompecabezas donde las piezas cambian de forma."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "פיתוח iOS הוא כמו לפתור פאזל שבו החלקים ממשיכים לשנות צורה."
+          }
+        }
+      }
+    },
+    "Start Exploring" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاستكشاف"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comience a explorar"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "התחל לחקור"
+          }
+        }
+      }
+    },
+    "Swift is not just a programming language; it's a way of life for iOS developers." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سويفت ليست مجرد لغة برمجة؛ إنها طريقة حياة لمطوري iOS."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swift no es sólo un lenguaje de programación; es una forma de vida para los desarrolladores de iOS."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "סוויפט היא לא רק שפת תכנות; זו דרך חיים עבור מפתחי iOS."
+          }
+        }
+      }
+    },
+    "SwiftUI: Changing the way iOS apps are built, one declarative statement at a time." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI: تغيير الطريقة التي يتم بها إنشاء تطبيقات iOS، بيان تصريحي واحد في كل مرة."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI: cambiando la forma en que se crean las aplicaciones de iOS, una declaración declarativa a la vez."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI: שינוי האופן שבו אפליקציות iOS בנויות, הצהרה הצהרתית אחת בכל פעם."
+          }
+        }
+      }
+    },
+    "The best iOS apps are the ones that seamlessly blend functionality with elegance." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أفضل تطبيقات iOS هي تلك التي تمزج بين الأداء الوظيفي والأناقة بسلاسة."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las mejores aplicaciones de iOS son aquellas que combinan a la perfección funcionalidad y elegancia."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "האפליקציות הטובות ביותר ל-iOS הן אלו שמשלבות בצורה חלקה פונקציונליות עם אלגנטיות."
+          }
+        }
+      }
+    },
+    "The iOS App Store: Where dreams become apps and apps become sensations." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متجر تطبيقات iOS: حيث تصبح الأحلام تطبيقات والتطبيقات تصبح أحاسيس."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La App Store de iOS: donde los sueños se convierten en aplicaciones y las aplicaciones en sensaciones."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "חנות האפליקציות של iOS: היכן שחלומות הופכים לאפליקציות ואפליקציות הופכות לסנסציות."
+          }
+        }
+      }
+    },
+    "Welcome to The Club" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبا في النادي"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bienvenido al club"
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ברוך הבא למועדון"
+          }
+        }
+      }
+    },
+    "When it comes to iOS programming, attention to detail separates the good from the great." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عندما يتعلق الأمر ببرمجة iOS، فإن الاهتمام بالتفاصيل يفصل بين الجيد والعظيم."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando se trata de programación de iOS, la atención al detalle separa lo bueno de lo excelente."
+          }
+        },
+        "he" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "כשזה מגיע לתכנות iOS, תשומת לב לפרטים מפרידה בין הטוב לגדול."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

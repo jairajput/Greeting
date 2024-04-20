@@ -16,6 +16,9 @@
 		D80CE8352BD38E26006E7875 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8342BD38E26006E7875 /* TitleView.swift */; };
 		D80CE8372BD38EDD006E7875 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8362BD38EDD006E7875 /* MessagesView.swift */; };
 		D80CE8392BD39101006E7875 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8382BD39101006E7875 /* BackgroundView.swift */; };
+		D80CE83B2BD3A5D1006E7875 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80CE83A2BD3A5D1006E7875 /* Launch Screen.storyboard */; };
+		D80CE83F2BD3A751006E7875 /* Greetings.png in Resources */ = {isa = PBXBuildFile; fileRef = D80CE83E2BD3A750006E7875 /* Greetings.png */; };
+		D80CE8412BD3AA43006E7875 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D80CE8402BD3AA43006E7875 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		D80CE8342BD38E26006E7875 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		D80CE8362BD38EDD006E7875 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		D80CE8382BD39101006E7875 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		D80CE83A2BD3A5D1006E7875 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D80CE83E2BD3A750006E7875 /* Greetings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Greetings.png; path = ../../Greetings.png; sourceTree = "<group>"; };
+		D80CE8402BD3AA43006E7875 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,9 @@
 				D80CE8342BD38E26006E7875 /* TitleView.swift */,
 				D80CE8362BD38EDD006E7875 /* MessagesView.swift */,
 				D80CE8382BD39101006E7875 /* BackgroundView.swift */,
+				D80CE83A2BD3A5D1006E7875 /* Launch Screen.storyboard */,
+				D80CE83E2BD3A750006E7875 /* Greetings.png */,
+				D80CE8402BD3AA43006E7875 /* Localizable.xcstrings */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -126,6 +135,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				he,
+				es,
 			);
 			mainGroup = D80CE7F32BD2DB21006E7875;
 			productRefGroup = D80CE7FD2BD2DB21006E7875 /* Products */;
@@ -142,6 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80CE83F2BD3A751006E7875 /* Greetings.png in Resources */,
+				D80CE8412BD3AA43006E7875 /* Localizable.xcstrings in Resources */,
+				D80CE83B2BD3A5D1006E7875 /* Launch Screen.storyboard in Resources */,
 				D80CE8082BD2DB23006E7875 /* Preview Assets.xcassets in Resources */,
 				D80CE8042BD2DB23006E7875 /* Assets.xcassets in Resources */,
 			);
@@ -300,6 +315,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -338,6 +354,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
