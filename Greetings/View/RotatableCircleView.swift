@@ -1,5 +1,5 @@
 //
-//  TitleView.swift
+//  RotatableCircleView.swift
 //  Greetings
 //
 //  Created by Jai  on 20/04/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TitleView: View {
+struct RotatableCircleView: View {
     let lineWidth = 15.0
     let diameter = 70.0
     @State private var isRotated:Bool = false
@@ -19,7 +19,6 @@ struct TitleView: View {
     var angularGradient: AngularGradient{
         AngularGradient.init(gradient: Gradient(colors: [Color.blue,Color.green,Color.red,Color.pink,Color.purple]), center: .center,angle: .zero)
     }
-    
     @State private var subtitle:LocalizedStringKey =  "Explore iOS Programming"
     let subtitles:[LocalizedStringKey] = [
         "In the world of iOS development, every pixel counts.",
@@ -43,42 +42,26 @@ struct TitleView: View {
         "The iOS App Store: Where dreams become apps and apps become sensations." ,
 ]
     
+    
     var body: some View {
-        HStack {
-            VStack(alignment: .leading ,spacing:0){
-                Text("Greetings")
-                    .font(.largeTitle)
-                    .fontWeight(.semibold)
-                Text(subtitle)
-                    .font(.headline)
-                    .fontWeight(.thin)
-            }
-//            .onTapGesture {
-//                subtitle = subtitles.randomElement() ?? "Explore iOS Programming"
-//            }
-            Spacer()
-            Circle()
-                .strokeBorder(angularGradient
-                              ,lineWidth: lineWidth)
-                .rotationEffect(angle)
-                .frame(width:diameter,height:diameter)
-                .onTapGesture {
-                    withAnimation {
-                        isRotated.toggle()
-                        subtitle = subtitles.randomElement() ?? "Explore iOS Programming"
+        Circle()
+            .strokeBorder(angularGradient
+                          ,lineWidth: lineWidth)
+            .rotationEffect(angle)
+            .frame(width:diameter,height:diameter)
+            .onTapGesture {
+                withAnimation {
+                    isRotated.toggle()
+                    subtitle = subtitles.randomElement() ?? "Explore iOS Programming"
 
 
-                    }
-                    
                 }
-        }
+                
+            }
+
     }
 }
 
 #Preview {
-    VStack{
-        TitleView()
-            Spacer()
-    }
-    .padding()
+    RotatableCircleView()
 }

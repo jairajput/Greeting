@@ -1,31 +1,30 @@
 //
-//  ContentView.swift
+//  LandscapeGreetingsView.swift
 //  Greetings
 //
-//  Created by Jai  on 19/04/24.
+//  Created by Jai  on 20/04/24.
 //
 
 import SwiftUI
 
-struct ContentView: View {
-    
+struct LandscapeGreetingsView: View {
     var body: some View {
         ZStack {
             BackgroundView()
-            VStack(alignment: .leading) {
+            HStack{
                 //Title
-                TitleView()
+                VerticleTitleView()
                 Spacer()
                 MessagesView()
-                Spacer()
-                Spacer()
+
                 
             }
             .padding()
         }
+
     }
 }
 
 #Preview {
-    ContentView()
+    LandscapeGreetingsView()
 }
