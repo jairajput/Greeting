@@ -15,6 +15,7 @@
 		D80CE8112BD2F3C8006E7875 /* DataItemmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8102BD2F3C8006E7875 /* DataItemmodel.swift */; };
 		D80CE8352BD38E26006E7875 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8342BD38E26006E7875 /* TitleView.swift */; };
 		D80CE8372BD38EDD006E7875 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8362BD38EDD006E7875 /* MessagesView.swift */; };
+		D80CE8392BD39101006E7875 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80CE8382BD39101006E7875 /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D80CE8102BD2F3C8006E7875 /* DataItemmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemmodel.swift; sourceTree = "<group>"; };
 		D80CE8342BD38E26006E7875 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		D80CE8362BD38EDD006E7875 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		D80CE8382BD39101006E7875 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				D80CE8102BD2F3C8006E7875 /* DataItemmodel.swift */,
 				D80CE8342BD38E26006E7875 /* TitleView.swift */,
 				D80CE8362BD38EDD006E7875 /* MessagesView.swift */,
+				D80CE8382BD39101006E7875 /* BackgroundView.swift */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				D80CE8112BD2F3C8006E7875 /* DataItemmodel.swift in Sources */,
 				D80CE80F2BD2E278006E7875 /* TextView.swift in Sources */,
 				D80CE8372BD38EDD006E7875 /* MessagesView.swift in Sources */,
+				D80CE8392BD39101006E7875 /* BackgroundView.swift in Sources */,
 				D80CE8022BD2DB21006E7875 /* ContentView.swift in Sources */,
 				D80CE8002BD2DB21006E7875 /* GreetingsApp.swift in Sources */,
 				D80CE8352BD38E26006E7875 /* TitleView.swift in Sources */,
